@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "places",
+  "version": "1.0",
+  "description": "The best way to see the weather right in your browser. Easier than looking outside!",
+
+  "icons": {
+    "48": "img/icon48.png",
+    "128": "img/icon128.png"
+  },
+
+
+  "browser_action" : {
+	"default_icon": { "38": "img/carlogo.png" },
+    "default_title": "Places",
+    "default_popup": " https://samcar.herokuapp.com/"
+
+  }
+
+}
